@@ -1,0 +1,29 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv-“X-UA-Compatible” content=”IE=9”/>
+    <title>Scorched</title>
+	<link type="text/css" rel="stylesheet" href="styles/style.css" />
+</head>
+<body onload="init()">
+    <section>
+		<div>
+			<div id="canvas-container">
+				<canvas id="canvas" width="800" height="600">This text is displayed if your browser does not support HTML5 Canvas.</canvas>
+            </div>
+			<audio id="explosion" preload="auto"><source type="audio/wav" src="sounds/explo.wav" /><audio>
+			<audio id="popp" preload="auto"><source type="audio/wav" src="sounds/popp.wav" /></audio>
+			<audio id="click"  preload="auto"><source type="audio/wav" src="sounds/click.wav" /></audio>
+			<audio id="gold" preload="auto"><source type="audio/wav" src="sounds/gold.wav" /></audio>			
+        </div>
+		<span id="fontLoader" style="font-family: Audiowide;">TEST</span>
+    </section>
+	<script type="text/javascript" src="scripts/jquery.js"></script>
+	<script type="text/javascript" src="scripts/sounds.js"></script>
+	<script type="text/javascript" src="scripts/beta.js"></script>
+	<script type="text/javascript" src="scripts/resources.js"></script>
+	<script type="text/javascript" src="scripts/buttons.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>
