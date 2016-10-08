@@ -1,0 +1,22 @@
+{
+  "name": "scorched-space",
+  "version": "1.0.0",
+  "description": "Small js/html5 game",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7affer/scorched-space.git"
+  },
+  "author": "Bartłomiej Wilk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/7affer/scorched-space/issues"
+  },
+  "homepage": "https://github.com/7affer/scorched-space#readme",
+  "devDependencies": {
+    "serve": "^1.4.0"
+  }
+}

@@ -4,7 +4,7 @@ function resetBackground() {
 
 function initLevel() {
 	if (LEVEL == 1) {
-		Level.sun = new Planet(0, 400, 0, 0, null, false, "#19090F", "#000F1E", "#000");
+		Level.sun = new Planet(0, 400, 0, 0, null, false, "#BB300F", "#220F1E", "#000");
 		Level.stars = 3;
 
 		gun = new Planet(-Math.PI * 2 / 3, 0, Level.sun.r + 10, 0, Level.sun);
@@ -18,7 +18,7 @@ function initLevel() {
 		Level.sun.stars.push(new Planet(-Math.PI / 3 + Math.PI / 10, 10, Level.sun.r + 10, 0, Level.sun, true));
 	}
 	else if (LEVEL == 2) {
-		Level.sun = new Planet(0, 400, 0, 0, null, false, "#19090F", "#000F1E", "#000");
+		Level.sun = new Planet(0, 400, 0, 0, null, false, "#ABC", "#ACB", "#000");
 		earth = new Planet(-Math.PI / 2.5, 110, 650, 0, Level.sun, false, "#139", "#026", "#000");
 		Level.stars = 3;
 
@@ -31,7 +31,7 @@ function initLevel() {
 		Level.sun.stars.push(new Planet(-Math.PI / 3 + Math.PI / 10, 10, Level.sun.r + 10, 0, Level.sun, true));
 	}
 	else if (LEVEL == 3) {
-		Level.sun = new Planet(0, 400, 0, 0, null, false, "#19090F", "#000F1E", "#000");
+		Level.sun = new Planet(0, 400, 0, 0, null, false, "#FBC", "#AFB", "#000");
 		earth = new Planet(-Math.PI / 2.5, 100, 680, 0, Level.sun, false, "#139", "#026", "#000");
 		moon = new Planet(Math.PI / 8, 20, 150, Math.PI / 10, earth, false, "#A02", "#A10", "#000");
 		moon.clouds = new Array();
@@ -44,10 +44,10 @@ function initLevel() {
 		Level.sun.y = HEIGHT + Level.sun.r / 2;
 	}
 	else if (LEVEL == 4) {
-		Level.sun = new Planet(0, 100, 0, 0, null, false, "#19090F", "#000F1E", "#000");
+		Level.sun = new Planet(0, 100, 0, 0, null, false, "#AF3", "#3EB", "#000");
 
 		earth = new Planet(Math.PI / 10, 50, 300, 0, Level.sun, false, "#139", "#026", "#000");
-		moon = new Planet(Math.PI / 8, 20, 100, 0, earth, false, "#001", "#011", "#000");
+		moon = new Planet(Math.PI / 8, 20, 100, 0, earth, false, "#AAA", "#666", "#000");
 		mars = new Planet(Math.PI / 4, 30, 500, 0, Level.sun, false, "#521", "#A33", "#000");
 
 		Level.stars = 6;
