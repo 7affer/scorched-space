@@ -1,5 +1,9 @@
-# scorched-space
-Small js/html5 game
+# Scorched space
+Small js/html5 game with simple phisics and terrain destruction
+
+## Demo
+
+http://7affer.github.io/scorched-space/
 
 ## License
 
