@@ -4,7 +4,7 @@
   "description": "Small js/html5 game",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "serve ."
   },
   "repository": {
     "type": "git",
